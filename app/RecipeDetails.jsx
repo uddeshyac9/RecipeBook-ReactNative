@@ -9,7 +9,7 @@ import { useLocalSearchParams } from 'expo-router';
 const RecipeDetailsScreen = () => {
   const { id } = useLocalSearchParams();
   const [recipe, setRecipe] = useState(null);
-  const API_KEY = 'ab9d9f079598468c8a0da2fd7f2f5279';
+  const API_KEY = '4c81577010ef4ae193e4962f2633c54a';
 
   const fetchRecipeDetails = async () => {
     try {
