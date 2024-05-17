@@ -9,7 +9,7 @@ const HomeScreen = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);  // Error state
   const router = useRouter();
-  const API_KEY = "8cf6b4b8bd7e49a8960870bff6b603d5";
+  const API_KEY = "4df54376b3f34944aabd8bf8027ba2ad";
 
   const fetchRecipes = async () => {
     try {

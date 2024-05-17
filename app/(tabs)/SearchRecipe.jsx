@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useRouter } from 'expo-router';
 import RecipeList from '../../components/RecipeList';  // Import the RecipeList component
 
-const API_KEY = "8cf6b4b8bd7e49a8960870bff6b603d5";  // Replace with your actual API key
+const API_KEY = "a80ac8e83418485e82bbc074416d2940";  // Replace with your actual API key
 
 const SearchRecipeScreen = () => {
   const [recipes, setRecipes] = useState([]);
