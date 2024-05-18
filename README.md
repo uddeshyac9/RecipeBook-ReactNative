@@ -9,11 +9,15 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
-
-2. Start the app
+2. Make native Folder for android and ios
 
    ```bash
-    npx expo run:android  
+    npx expo prebuild 
+   ```
+3. Start the app
+
+   ```bash
+    npx expo run:android or npx expo run:ios
    ```
 
 In the output, you'll find options to open the app in a
