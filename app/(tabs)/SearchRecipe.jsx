@@ -71,9 +71,9 @@ const SearchRecipeScreen = () => {
           style={styles.searchInput}
           placeholder="Search recipes by name or ingredient"
           value={searchQuery}
-          onChangeText={setSearchQuery}
+          onChangeText={(text)=>setSearchQuery(text)}
         />
-        <TouchableOpacity onPress={handleSearch} style={styles.searchButton}>
+        <TouchableOpacity onPress={()=>handleSearch()} style={styles.searchButton}>
           <Text style={styles.searchButtonText}>Search</Text>
         </TouchableOpacity>
       </View>
